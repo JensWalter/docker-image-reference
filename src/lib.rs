@@ -199,7 +199,7 @@ impl<'a> FromStrExtended<'a> for Tag<'a> {
     }
 }
 
-#[derive(PartialEq)]
+#[derive(PartialEq, Debug)]
 struct Digest<'r> {
     algorithm: &'r str,
     digest_hex: &'r str,
