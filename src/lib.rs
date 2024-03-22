@@ -71,7 +71,7 @@ trait FromStrExtended<'a>: Sized {
 /// reference.
 ///
 /// [`Reference::from_str()`]: #method.from_str
-#[derive(PartialEq)]
+#[derive(PartialEq, Debug)]
 pub struct Reference<'r> {
     name: &'r str,
     tag: Option<&'r str>,

@@ -1,7 +1,7 @@
 [package]
 name = "docker-image-reference"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 license = "Apache-2.0"
 description = "Parse docker image references"
 homepage = "https://github.com/mzohreva/docker-image-reference"
